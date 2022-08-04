@@ -1,5 +1,6 @@
 *{
     color: white;
+    font-family: Garamond, serif;
 }
 #container{
     width: 100vw;
@@ -44,6 +45,9 @@
     align-items: center;
     justify-content: center;
 }
+#order{
+    background-color: black;
+}
 
 /* menu */
 #menu{
@@ -57,8 +61,8 @@
     
 }
 .pic{
-    width: 10vw;
-    height: 10vh;
+    width: 20vw;
+    height: 20vh;
     padding: 5vh;
     display: flex;
 }
@@ -96,6 +100,9 @@ row{
     align-items: flex-start;
 }
 input, textarea, select{
+    color: black;
+}
+.option{
     color: black;
 }
 
