@@ -19,6 +19,7 @@
 }
 .section{
     background-color: black;
+    opacity: 0.8;
     height: 10vh;
     width: 80vw;
     order: 2;
@@ -32,7 +33,8 @@
     justify-content: center;
 }
 .info{
-    background-color: gray;
+    background-color: black;
+    opacity: 0.8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,12 +43,15 @@
 .media{
     height: 20vh;
     width: 20vw;
+    margin: 1.5vw;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 #order{
-    background-color: black;
+    background-color: brown;
+    opacity: 0.5;
+
 }
 
 /* menu */
