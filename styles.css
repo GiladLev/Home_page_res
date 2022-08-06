@@ -1,6 +1,7 @@
 *{
     color: white;
     font-family: Garamond, serif;
+    text-align: center;
 }
 #container{
     width: 100vw;
@@ -71,6 +72,16 @@
     padding: 5vh;
     display: flex;
 }
+.pic{
+    position: relative;
+}
+.wheat {
+    position: absolute;
+    bottom: 3.5vh;
+    left: 4vh;
+    font-size: 5vh;
+  }
+  
 row{
     width: 80rw;
     height: 30rh;
