@@ -3,11 +3,26 @@
     font-family: Garamond, serif;
     text-align: center;
 }
+body{
+    margin: 0;
+}
+.button_up{
+    position: absolute;
+    bottom: 3.5vh;
+    right: 5vw;
+    position: fixed;
+}
+#up_button{
+    color: black;
+    padding: 10%;
+}
+
 #container{
-    width: 100vw;
+    width: 100vh;
     height: 400vh;
     display: flex;
     flex-direction: column;
+    size: cover;
 }
 /* home page */
 #Home{
@@ -17,10 +32,12 @@
     background-repeat: repeat;
     background-size: cover;
     display: flex;
+    justify-content: flex-end;
+    z-index: 1;
 }
 .section{
-    background-color: black;
-    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.638);
+    
     height: 10vh;
     width: 80vw;
     order: 2;
@@ -34,8 +51,8 @@
     justify-content: center;
 }
 .info{
-    background-color: black;
-    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.767);
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,8 +67,7 @@
     justify-content: center;
 }
 #order{
-    background-color: brown;
-    opacity: 0.5;
+    background-color: rgba(165, 42, 42, 0.726);
 
 }
 
