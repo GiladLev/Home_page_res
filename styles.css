@@ -12,11 +12,7 @@ body{
         height: 50%;
         width: 50%;
     }
-
-
 }
-
-
 .button_up{
     position: absolute;
     bottom: 3.5vh;
@@ -37,7 +33,8 @@ body{
     flex-direction: column;
     size: cover;
 }
-/* home page */
+
+
 #Home{
     width: 100vw;
     height: 100vh;
@@ -100,7 +97,8 @@ body{
 
 }
 
-/* menu */
+
+
 #menu{
     width: 100vw;
     height: 100vh;
@@ -108,9 +106,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-
-    
+    flex-wrap: wrap; 
 }
 .pic-container{
     width: 25vw;
@@ -151,7 +147,8 @@ img{
 
   }
   
-/* faq */
+
+  
 #faq{
     width: 100vw;
     height: 100vh;
@@ -166,6 +163,8 @@ img{
     display: flex;
     justify-content: center;
 }
+
+
 #contant{
     width: 100vw;
     height: 100vh;
