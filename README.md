@@ -1,6 +1,6 @@
-Home page eestaurant
+Home page for the restaurant
 
-I started a full stack bootcamp course
+I started a full bootcamp course
 My first project is a website for a restaurant
 
 link to a website - https://hava-ve-adam.netlify.app/
